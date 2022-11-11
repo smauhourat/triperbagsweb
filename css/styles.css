@@ -1,0 +1,81 @@
+/* background: #232526; */
+/* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #414345, #232526); */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #232526, #414345); */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(to right, #232526, #414345);
+}
+
+a {
+    color: #ededed;
+    text-decoration: none;
+}
+
+.landing {
+    position: relative;
+    background: url('../img/road.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.landing2 {
+    position: relative;
+    background: url('../img/bike.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.landing-inner {
+    color: #fff;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Text Styles */
+.x-large {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.small {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+/* Overlay */
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.brand-logo {
+    height: 65px
+}
