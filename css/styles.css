@@ -1,7 +1,8 @@
 /* Global Styles */
 :root {
     --dark-color: #333;
-  }
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -34,36 +35,36 @@ a {
     /* border-bottom: solid 1px var(--primary-color); */
     /* border: solid 1px red; */
     opacity: 0.9;
-  }
-  
-  .navbar ul {
+}
+
+.navbar ul {
     display: flex;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     color: #fff;
     padding: 0.45rem;
     margin: 0 0.25rem;
-  }
-  
-  .navbar a:hover {
-    color: var(--primary-color);
-  }
-  
-  .navbar .welcome span {
-    margin-right: 0.6rem;
-  }
-  
-  .nav-normal {
-    display: grid
-  }
-  
+}
 
-  .bg-dark {
+.navbar a:hover {
+    color: var(--primary-color);
+}
+
+.navbar .welcome span {
+    margin-right: 0.6rem;
+}
+
+.nav-normal {
+    display: grid
+}
+
+
+.bg-dark {
     background: var(--dark-color);
     color: #fff;
-  }
-  
+}
+
 
 .landing {
     position: relative;
@@ -125,23 +126,29 @@ a {
 	Responsive Styles
  ============================================================*/
 
- /* For Mobile */
- @media screen and (max-width: 540px) {
+/* For Mobile */
+@media screen and (max-width: 540px) {
     .view {
         width: 400px;
     }
+
     .x-large {
         font-size: 2.75rem;
         line-height: 1.2;
         margin-bottom: 1rem;
-    }    
+    }
+
+    .lead {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
 
     .small {
         font-size: 0.85rem;
         line-height: 1.2;
         margin-bottom: 0.5rem;
     }
-    
+
 }
 
 
@@ -161,6 +168,20 @@ a {
 #footer p {
     font-size: 0.75rem;
     color: #fff;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 2rem;
+    /* margin: 10px */
+}
+
+.footer-social a {
+    color: #fff;
+    padding: 0.15rem;
+    margin: 0 0.25rem;
 }
 
 /* For Tablets */
